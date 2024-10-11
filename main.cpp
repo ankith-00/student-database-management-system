@@ -20,19 +20,18 @@ int getdata(){
     //t=t+n;
     
     for(int i=0; i<n; i++){
-  cout<<"\nS T U D E N T  N O: "<<i+1<<endl;
-    
-  cout<<"\nEnter Class  : ";
-  cin>>s[i].std;
-  cout<<"Enter Roll-No: ";
-  cin>>s[i].rollno;
-  cout<<"Enter Name   : ";
-  cin>>s[i].name;
-  cout<<"Enter Age    : ";
-  cin>>s[i].age;
-  cout<<"Enter Gender : ";
-  cin>>s[i].gen;
-
+      cout<<"\nS T U D E N T  N O: "<<i+1<<endl;
+        
+      cout<<"\nEnter Class  : ";
+      cin>>s[i].std;
+      cout<<"Enter Roll-No: ";
+      cin>>s[i].rollno;
+      cout<<"Enter Name   : ";
+      cin>>s[i].name;
+      cout<<"Enter Age    : ";
+      cin>>s[i].age;
+      cout<<"Enter Gender : ";
+      cin>>s[i].gen;
      }
   
   }else
@@ -211,7 +210,7 @@ int main() {
   switch(choice){
     case 1:
    //   system("CLS");
-       cout<<"\n-------------------------------------------\n";
+      cout<<"\n-------------------------------------------\n";
       getdata();
       cout<<"\n-------------------------------------------\n";
       goto a;
